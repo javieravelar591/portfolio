@@ -10,7 +10,7 @@
 .bg-photo {
     position: absolute;
     height: 100vh;
-    width: 33vw;
+    width: 25vw;
     top: -4rem;
     object-fit: cover;
     right: 0;
@@ -20,7 +20,7 @@
 .intro-content {
     height: 100vh;
     width: calc(100vw - 33vw);
-    pad: 2rem;
+    padding: 2rem;
     font-size: 3rem;
     display: flex;
     flex-direction: column;

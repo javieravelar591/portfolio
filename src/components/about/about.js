@@ -7,15 +7,30 @@ export const About = () => {
       <Element name='aboutme'>
           <section id='aboutme'>
               <div className='intro-content'>
-                  <h1 className='about-header'>A little bit about me!</h1>
-                  <span>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod ligula a porta varius. 
-                    Ut dictum consequat dolor ac euismod. Nam volutpat, felis et pretium vehicula, ante nisi consequat ex, 
-                  </span>
+                    <h1 className='about-header'>A little bit about me!</h1>
+                    <span>
+                        I am a recent graduate from the University of Minnesota with a Bachelor's degree
+                        in Computer Science.
+                    </span>
+                    <h2 className='xp-header'>My experience</h2>
+                    <span>
+                        I am a recent graduate from the University of Minnesota with a Bachelor's degree
+                        in Computer Science.
+                    </span>
+                    <h2>Skills</h2>
+                    <span>
+                        I am a recent graduate from the University of Minnesota with a Bachelor's degree
+                        in Computer Science.
+                    </span>
+                    <h2>Some of my interests</h2>
+                    <span>
+                        I am a recent graduate from the University of Minnesota with a Bachelor's degree
+                        in Computer Science.
+                    </span>
               </div>
           </section>
       </Element>
-      );
+    );
 }
 
 export default About;

@@ -17,10 +17,11 @@ export const Intro = () => {
     <Element name='intro'>
       <section id='intro'>
         <div className='intro-content'>
-          <span className='greeting'>Hi,</span>
-          <span className='intro-name'>I'm Javier Avelar</span>
-          <span className='intro-about'>I'm a new grad from the University of Minnesota</span>
-          <Link to='aboutme' smooth duration={ 500 }><button className='btn'>Hire me!</button></Link>
+            <span className='greeting'>Hi,</span>
+            <span className='intro-name'>I'm Javier Avelar</span>
+            <span className='intro-about'>I'm a recent gradudate from</span>
+            <span>the University of Minnesota</span>
+            <Link to='contact' smooth duration={ 500 }><button className='btn'>Hire me!</button></Link>
         </div>
         <img src={ headshot } alt='headshot' className='bg-photo'/>
       </section>
